@@ -169,6 +169,9 @@ PRODUCT_COPY_FILES += \
 # Dalvik VM Configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# DebugFS
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+
 # Device Specific Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
