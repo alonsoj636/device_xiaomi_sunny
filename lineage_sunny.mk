@@ -17,6 +17,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Pixel Charger
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_sunny
 PRODUCT_DEVICE := sunny
