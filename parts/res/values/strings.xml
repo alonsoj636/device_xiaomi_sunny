@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2018-2020 The LineageOS Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -16,11 +13,12 @@
 -->
 <resources>
     <!-- Ambient settings -->
-    <string name="ambient_enable">Use ambient display</string>
+    <string name="ambient_enable">Use Ambient Display</string>
 
     <!-- Dirac settings -->
-    <string name="dirac_enable">Enable dirac</string>
-    <string name="dirac_title">Dirac sound enhancer</string>
+    <string name="dirac_title">Mi Sound Enhancer</string>
+    <string name="dirac_enable">Enable Mi Sound Enhancer</string>
+    <string name="dirac_summary">Optimize audio quality</string>
     <string name="dirac_headset_title">Headset type</string>
     <string name="dirac_preset_title">Sound preset</string>
 
@@ -62,13 +60,13 @@
     <string name="dirac_preset_metal">Metal</string>
 
     <!-- Thermal profiles -->
-    <string name="thermal_title">Thermal profiles</string>
+    <string name="thermal_title">Optimization Profiles</string>
     <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
-    <string name="thermal_default">Default</string>
-    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_default">No optimization</string>
+    <string name="thermal_benchmark">Performance</string>
     <string name="thermal_browser">Browser</string>
     <string name="thermal_camera">Camera</string>
     <string name="thermal_dialer">Dialer</string>
-    <string name="thermal_gaming">Gaming</string>
-    <string name="thermal_streaming">Streaming</string>
+    <string name="thermal_gaming">Games</string>
+    <string name="thermal_streaming">Streaming applications</string>
 </resources>
